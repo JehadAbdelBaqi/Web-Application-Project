@@ -2,10 +2,13 @@ package com.qa.bankingsystem.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.qa.bankingsystem.domain.Customer;
 import com.qa.bankingsystem.exception.CustomerNotFoundException;
 import com.qa.bankingsystem.repo.CustomerRepo;
 
+@Service
 public class CustomerService {
 
 	private CustomerRepo repo;
@@ -27,7 +30,7 @@ public class CustomerService {
 	}
 
 	public Customer update(long id, Customer customer) {
-		Customer customerToEdit = repo.findById(id).get();
+		Customer customerToEdit = repo.findById(id).orElseThrow(() -> new CustomerNotFoundException(id));
 		customerToEdit.setFirstName(customer.getFirstName());
 		customerToEdit.setLastName(customer.getLastName());
 		customerToEdit.setAddress(customer.getAddress());
