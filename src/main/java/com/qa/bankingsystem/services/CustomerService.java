@@ -1,4 +1,4 @@
-package com.qa.bankingsystem.service;
+package com.qa.bankingsystem.services;
 
 import java.util.List;
 

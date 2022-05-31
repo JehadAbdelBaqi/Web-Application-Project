@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.qa.bankingsystem.domain.Customer;
-import com.qa.bankingsystem.service.CustomerService;
+import com.qa.bankingsystem.services.CustomerService;
 
 @RestController
 @RequestMapping("/customer")
