@@ -1,0 +1,1 @@
+INSERT INTO `customer` (`first_name`, `last_name`, `address`) VALUES ('Tom', 'Tomsom', '123 address place');
