@@ -1,0 +1,12 @@
+## Setting up your SpringBoot project  
+
+First you click on the file icone on the top left hand side of the page:  
+>![](../documentation_images/4_controller_class/controller_1.png)  
+
+You then mname your file and click next.
+>![](../documentation_images/4_controller_class/controller_2.png)  
+Finally, you select the dependancies - usually when you have a new project and havent had any previous then the selected dependacies aren't there - you simply search for them and include the ones you want.
+>![](../documentation_images/4_controller_class/controller_3.png)  
+>![](../documentation_images/4_controller_class/controller_4.png)  
+>![](../documentation_images/4_controller_class/controller_5.png)  
+>![](../documentation_images/4_controller_class/controller_6.png)  
