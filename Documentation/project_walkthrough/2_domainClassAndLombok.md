@@ -1,4 +1,4 @@
-## Creating runner file and domain class using Lombok
+## Creating Runner/Main file and Domain Class using Lombok
 
 Upon the creation of the Springboot project - a runner class with the project name is automatically created with the @SpringBootApplication annotation present. This annotation is used to mark a configuration class that declares one or more @Bean methods and also triggers auto-configuration and component scanning. The project alsop created a pom.xml file with relevant dependancies mentioned in the start-up section and other test folders for rescources and testing. The main method within the class also has a SpringApplication.run method. 
 
