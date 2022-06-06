@@ -14,10 +14,10 @@ I then create a config class and just run a couple of tests in there. The @Bean 
 I also connect to the local h2 test environment online while the program is running. 
 >![](../documentation_images/2_domain_class_and_lombok/domain_class_4.png) 
 
-I then create a domain package and a domain class. Inside of the domain class I annotate the top of the class with @Entity - this annotation tells the applcation that this is a table creation. Below when creating the first column we specify that it is an id column with the @Id and we use @GenerateValue(strategy = GenerationType.Identity) to tell it this is an autop incrementing id column.
+I then create a domain package and a domain class. Inside of the domain class I annotate the top of the class with @Entity - this annotation tells the application that this is a table creation. Below when creating the first column we specify that it is an id column with the @Id and we use @GenerateValue(strategy = GenerationType.Identity) to tell it this is an auto incrementing id column.
 >![](../documentation_images/2_domain_class_and_lombok/domain_class_5.png) 
 
-We the use the @Column annotation to speficy the other columns. We can also specify some SQL within the column such as below where we've used (nullable = false) which is the equivalent to NOT_NULL in MySQL.
+We the use the @Column annotation to specify the other columns. We can also specify some SQL within the column such as below where we've used (nullable = false) which is the equivalent to NOT_NULL in MySQL.
 >![](../documentation_images/2_domain_class_and_lombok/domain_class_6.png) 
 
 Generate some constructors.
@@ -32,9 +32,9 @@ And Hashcode and equals. (These can all be done by right clicking and clicking s
 Lombok is a Java library which aims to reduce boilerplate code by automatically generating common class components such as: constructors, getters and setters, toString(), equals() and hashCode() methods. Lombok need to be downloaded (see main readme file) and then the dependancies below must be added to the pom file (lines 54 to 57):
 >![](../documentation_images/2_domain_class_and_lombok/domain_class_10.png) 
 
-@NoArgsConstructor generatos a constructor with no arguments.
-@AllArgsConstructor does the opposite and generates one with all arguments.
-@Getter and @Setter generates getters and setters.
-And @EqualsAndHashCode generates the equals and hashcode.
+@NoArgsConstructor generatos a constructor with no arguments.  
+@AllArgsConstructor does the opposite and generates one with all arguments.  
+@Getter and @Setter generates getters and setters.  
+And @EqualsAndHashCode generates the equals and hashcode.  
 NOTE - if you want to generate specific constructors then you would have to do them manually. As seen in lines 36-41.
 >![](../documentation_images/2_domain_class_and_lombok/domain_class_11.png) 
