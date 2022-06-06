@@ -1,4 +1,4 @@
-## Creating the Repo interface and Service classes.
+## Creating the Repo interface and Service class.
 
 We create a Repo interface which extends from JpaRepository. JpaRepository is a JPA (Java Persistence API) specific extension of Repository. It contains the full API of CrudRepository and PagingAndSortingRepository. So it contains API for basic CRUD operations and also API for pagination and sorting. We specify by wrapping our domain object (customer in this case) and long (which is for the id) within angle brackets. This way it knows this is what we are using the repository for when calling the crud functionality. The @Repository annotation declares that this class is a repository.
 >![](../documentation_images/3_repo_and_service_class/repo_and_service_1.png) 
