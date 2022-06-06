@@ -1,4 +1,4 @@
-## Seervice Unit Testing
+## Controller Unit Testing
 
 @WebMvcTest is the only annotation we need since this is a unit test - we’re still going to send the same request but this time the service will be mocked as we create a mock bean of the user service to stop the controller from talking to the service - that’s why we add the mock bean on service.
 >![](../documentation_images/7_service_unit_testing/service_unit_testing_1.png) 
