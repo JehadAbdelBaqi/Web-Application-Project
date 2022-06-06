@@ -1,6 +1,6 @@
 ## Setting up your SpringBoot project  
 
-First you click on the file icone on the top left hand side of the page:  
+First you click the file icon on the top left hand side of the page:  
 >![](../documentation_images/1_setting_up_springboot/Creating_sprintboot_app_1.png) 
 
 You then name your file and click next.
