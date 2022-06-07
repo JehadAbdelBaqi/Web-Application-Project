@@ -4,7 +4,7 @@
 
 ## Web Application
 
-This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript.
+This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript and Visual Studio Code.
 
 ## Application builder
 
@@ -18,6 +18,10 @@ Here is the tech stack used and the places to download them.
 [Eclipse](https://www.eclipse.org/ide/) - Integrated development environment.  
 [Maven](https://maven.apache.org/) - Software/application project dependency management.  
 [Java](https://www.java.com/en/) - Object oriented programming language.  
+[JavaScript](https://www.javascript.com/) Scripting language.  
+HTML - Mark up language usually available in most IDEs.  
+CSS - Cascading Style Sheet - usually availabble in most IDEs.  
+[Visual Studio Code](https://code.visualstudio.com/) - Integrated development environment.  
 [GitBash](https://git-scm.com/downloads) - Git version control command line emulator.  
 
 
