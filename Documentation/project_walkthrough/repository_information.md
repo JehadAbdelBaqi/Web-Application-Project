@@ -14,7 +14,7 @@ We then use the git add origin <url> and use the url of the GitHub repository. I
 
 I then made a dev branch and seperate other branches depending on the workflow I wanted to follow. I then made my first push into domain. And then merged that with dev.
 >![](../documentation_images/other/repo_set_up_and_pushes/first_push.png) 
->![](../documentation_images/other/repo_set_up_and_pushes/new_branch.png) 
+>![](../documentation_images/other/repo_set_up_and_pushes/second_push.png) 
 
 And then continued doing the same throughout the project.
->![](../documentation_images/other/repo_set_up_and_pushes/second_push.png) 
+>![](../documentation_images/other/repo_set_up_and_pushes/new_branch.png) 
