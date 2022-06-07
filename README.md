@@ -8,6 +8,8 @@
 
 This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript and Visual Studio Code. The final appication should be a webpage which can communicate to a backend database and either get, post, put or delete data from the database. 
 
+07/06/2022 - The projects backend works completely fine but there is a small edge case. The create and update forms don't have validations meaning if they are empty there will still create an empty entity into the database or update something which wasn't empty - this functionality will be fixed in the near future.
+
 ## Application builder
 
 Please see project build [walkthrough](https://github.com/JehadAbdelBaqi/Web-Application-Project/blob/main/Documentation/project_walkthrough/final_project_build.md) for project build.
