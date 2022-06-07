@@ -4,11 +4,11 @@
 
 ## Web Application
 
-This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript and Visual Studio Code.
+This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript and Visual Studio Code. The final appication should be a webpage which can communicate to a backend database and either get, post, put or delete data from the database. 
 
 ## Application builder
 
-Please see...
+Please see project build [walkthrough](https://github.com/JehadAbdelBaqi/Web-Application-Project/blob/main/Documentation/project_walkthrough/final_project_build.md) for project build.
 
 ### Prerequisites
 
@@ -28,18 +28,29 @@ CSS - Cascading Style Sheet - usually availabble in most IDEs.
 
 ## Testing
 
-For trsting we used Springboot, Junit and Mockito.
+For testing we used Springboot, Junit and Mockito.
 
 ### Unit Tests 
 
-We used Mockito for unit testing since we needde to mock any dependancies. Please see [walkthrough]() for details.
+We used Mockito for unit testing since we needde to mock any dependancies. Please see [walkthrough](https://github.com/JehadAbdelBaqi/Web-Application-Project/blob/main/Documentation/project_walkthrough/6_serviceUnitTesting.md) for details.
 
 ### Integration Tests 
 
-We used Springboot testing for integration. In unit testing we didn't need to mock any dependacnies. Please see [walkthrough]() for details.
+We used Springboot testing for integration. In unit testing we didn't need to mock any dependacnies. Please see [walkthrough](https://github.com/JehadAbdelBaqi/Web-Application-Project/blob/main/Documentation/project_walkthrough/7_integrationTesting.md) for details.
 
 ## Acknowledgments
 
+[The best place to research](www.google.com)  
+[The Stack](https://stackoverflow.com/)  
+[W3](https://www.w3schools.com/)
+[Geeks](https://www.geeksforgeeks.org/)  
+[D-Zone](https://dzone.com/)  
+[Free picture library - Unsplash](https://unsplash.com/)  
+[Floating input placeholder](https://dev.to/felix/floating-input-placeholders-with-html-css-ej4)  
+[Help with JS](https://www.tabnine.com/code/javascript/functions/request/Response/statusMessage)  
+[Uploading pictures on GitHub](https://www.youtube.com/watch?v=hHbWF1Bvgf4)  
+[Background picture for HTML](https://www.youtube.com/watch?v=PgAZ8KzfhO8)  
 [Help with downloading Maven succesfully on MAC](https://www.youtube.com/watch?v=j0OnSAP-KtU)   
 [Create an ERD using MySQL](https://medium.com/@tushar0618/how-to-create-er-diagram-of-a-database-in-mysql-workbench-209fbf63fd03)  
 [LAST MINUTE RESCUE!!!!](https://www.youtube.com/watch?v=IeL7iq7Lb90)
+[Pop-up update form creator]( https://www.youtube.com/watch?v=gLWIYk0Sd38)  
