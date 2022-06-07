@@ -49,4 +49,4 @@ Lombok is a Java library which aims to reduce boilerplate code by automatically 
 @Getter and @Setter generates getters and setters.  
 And @EqualsAndHashCode generates the equals and hashcode.  
 NOTE - if you want to generate specific constructors then you would have to do them manually. As seen in lines 36-41.
->![](../documentation_images/2_domain_class_and_lombok/domain_class_11.png) 
+>![](../documentation_images/2_domain_class_and_lombok/domain_class_11.png)  
