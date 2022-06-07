@@ -2,6 +2,8 @@
 [GitHub repository](https://github.com/JehadAbdelBaqi/Web-Application-Project)  
 [Jira project management board](https://project-lucius.atlassian.net/jira/software/projects/HWA)
 
+## [PROJECT WALKTHROUGH](https://github.com/JehadAbdelBaqi/Web-Application-Project/tree/main/Documentation/project_walkthrough)  
+
 ## Web Application
 
 This project is a backend and frontend web application. The backend is built using Java, SpringBoot, MySQL and Eclipse. The frontend was built using HTML, CSS and JavaScript and Visual Studio Code. The final appication should be a webpage which can communicate to a backend database and either get, post, put or delete data from the database. 
