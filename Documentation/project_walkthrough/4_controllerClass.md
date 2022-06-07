@@ -17,4 +17,7 @@ The update() method takes both @PathVariable and @RequestBody - since it needs a
 >![](../documentation_images/4_controller_class/controller_5.png) 
 
 And finally the delete() method takes a @PathVariable since we need to specify the id which is deleted. The return is just a response entity since nothing needs to be in the body since we are deleting something which exists. We do use a ternary if since the delete method returns either true or false. If true it works and returns HttpStatus.NO_CONTENT. How ever if false it will return NOT_FOUND meaning the entity we tried to delete was not found. 
->![](../documentation_images/4_controller_class/controller_6.png)  
+>![](../documentation_images/4_controller_class/controller_6.png) 
+
+You can see the methods also using swagger by typing @EnableWebMvc on top of the class in the runner. The link you should type in the browser is seen below.
+>![](../documentation_images/other/Swagger.png) 
