@@ -1,4 +1,4 @@
-## Source Control use
+## Source Control
 
 To track and make changes to our progress we use Git and GitHub to crete and push updates to the server. 
 
