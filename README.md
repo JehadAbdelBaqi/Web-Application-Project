@@ -44,7 +44,7 @@ We used Springboot testing for integration. In unit testing we didn't need to mo
 
 ## Acknowledgments
 
-[The best place to research](www.google.com)  
+[The best place to research](www.google.com/)  
 [The Stack](https://stackoverflow.com/)  
 [W3](https://www.w3schools.com/)
 [Geeks](https://www.geeksforgeeks.org/)  
